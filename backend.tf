@@ -7,12 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "shafiq-s3-terraform-3.9"
-    key    = "terraform.tfstate"
+    bucket = "sctp-ce7-tfstate"
+    key    = "shafiq39.tfstate"
     region = "us-east-1" # Replace with your desired region
 
-    # Optional: Enable encryption at rest
-    dynamodb_table = "your-dynamodb-table-name"
-    encrypt         = true
+  
   }
 }
