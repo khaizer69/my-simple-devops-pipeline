@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "sctp-ce7-tfstate"
-    key    = "shafiq39.tfstate"
+    key    = "khaizer69.tfstate"
     region = "us-east-1" # Replace with your desired region
 
   
